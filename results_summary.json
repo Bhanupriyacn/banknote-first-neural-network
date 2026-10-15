@@ -1,0 +1,39 @@
+{
+  "dataset": "ritesaluja/bank-note-authentication-uci-data",
+  "raw_rows": 1372,
+  "duplicates_removed": 24,
+  "unique_rows": 1348,
+  "features": [
+    "variance",
+    "skewness",
+    "curtosis",
+    "entropy"
+  ],
+  "train_rows": 862,
+  "validation_rows": 216,
+  "test_rows": 270,
+  "random_state": 42,
+  "dense_units": [
+    16,
+    8,
+    1
+  ],
+  "activations": [
+    "relu",
+    "relu",
+    "sigmoid"
+  ],
+  "parameters": 225,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss": "binary_crossentropy",
+  "epochs": 30,
+  "batch_size": 32,
+  "correct_test_predictions": 267,
+  "test_accuracy": 0.9888888888888889,
+  "test_loss": 0.016226304695010185,
+  "final_training_loss": 0.01388500165194273,
+  "final_validation_loss": 0.022665109485387802,
+  "tensorflow_version": "2.20.0",
+  "keras_version": "3.11.3"
+}
